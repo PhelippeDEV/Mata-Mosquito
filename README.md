@@ -1,77 +1,94 @@
-🦟 Mata Mosquito - Jogo Web
+# 🦟 Mata Mosquito - Jogo em JavaScript
 
-Sobre o Projeto
+Este projeto foi desenvolvido durante o curso de Desenvolvimento Web Completo, com o objetivo de aplicar conceitos de JavaScript, HTML e CSS na criação de um jogo interativo no navegador.
 
-O Mata Mosquito é um jogo desenvolvido durante o curso Desenvolvimento Web Completo da Udemy.
-O objetivo do jogo é simples: eliminar os mosquitos que aparecem na tela antes que o tempo acabe — ou antes que suas vidas se esgotem.
+## 🎮 Sobre o Jogo
 
-Este projeto foi criado com foco em praticar conceitos fundamentais de desenvolvimento web, como manipulação do DOM, eventos e lógica com JavaScript.
+O **Mata Mosquito** é um jogo onde o jogador deve clicar nos mosquitos que aparecem na tela antes que eles desapareçam. A dificuldade aumenta conforme o tempo passa, exigindo mais rapidez e precisão do jogador.
 
-Como Funciona
-Mosquitos aparecem em posições aleatórias na tela
-O jogador deve clicar neles para eliminá-los
-Se um mosquito não for eliminado a tempo, o jogador perde uma vida
+---
 
-O jogo termina quando:
-O tempo chega a 0 → Vitória
-As vidas acabam → Game Over
-Níveis de Dificuldade
+## ⚙️ Funcionalidades
 
-O jogo possui diferentes níveis que alteram a velocidade de aparecimento dos mosquitos:
+* 🦟 Mosquitos aparecem em posições aleatórias na tela
+* ⏱️ Tempo limitado para eliminar os mosquitos
+* ❤️ Sistema de vidas (o jogador perde ao errar ou deixar passar)
+* 🎯 Clique interativo para eliminar os mosquitos
+* 📈 Níveis de dificuldade (fácil, médio e difícil)
+* 🏁 Tela de vitória ou derrota ao final da partida
 
-Normal – 2000ms
-Difícil – 1000ms
-Extremo – 750ms
+---
 
-Tecnologias Utilizadas
-    HTML5
-    CSS3
-    JavaScript (Vanilla JS)
+## 🧠 Conceitos Aplicados
 
-Estrutura do Projeto
- Mata-Mosquito
- ┣  index.html       → Tela inicial
- ┣  app.html         → Tela principal do jogo
- ┣  fim.html         → Tela de derrota
- ┣  vitoria.html     → Tela de vitória
- ┣  jogo.js          → Lógica do jogo
- ┣  style.css        → Estilização
- ┗  imagens          → Assets do jogo
+* Manipulação do DOM
+* Eventos com JavaScript (`onclick`)
+* Funções e lógica de tempo (`setInterval`, `setTimeout`)
+* Geração de posições aleatórias
+* Controle de estado do jogo (vidas, tempo, pontuação)
+* Responsividade básica com CSS
 
- Como Executar
-Clone o repositório:
-git clone https://github.com/seu-usuario/seu-repositorio.git
-Acesse a pasta:
-cd Mata-Mosquito
-Abra o arquivo:
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* HTML5
+* CSS3
+* JavaScript
+
+---
+
+## ▶️ Como Executar
+
+1. Baixe ou clone o repositório:
+
+```bash id="clm1q2"
+git clone https://github.com/PhelippeDEV/mata-mosquito.git
+```
+
+2. Abra o arquivo:
+
+```bash id="ax92pd"
 index.html
+```
 
-Ou simplesmente dê dois cliques no arquivo no seu computador.
+3. Execute diretamente no navegador
 
-Aprendizados
+---
 
-Com esse projeto foi possível praticar:
+## 📂 Estrutura do Projeto
 
-Manipulação do DOM
-Uso de eventos (onclick)
-Controle de tempo com setInterval
-Lógica de jogo (vidas, tempo, dificuldade)
-Geração de posições aleatórias
-Criação dinâmica de elementos HTML
+```id="n2l8dp"
+📁 mata-mosquito
+ ├── index.html
+ ├── style.css
+ ├── script.js
+ ├── imagens/
+ └── README.md
+```
 
-Melhorias Futuras
+---
 
-Adicionar pontuação
-Sistema de ranking
-Responsividade para mobile
-Sons e efeitos visuais
-Animações mais fluidas
+## 🎯 Objetivo do Projeto
 
-Autor
+Este projeto tem como finalidade:
 
-Desenvolvido por Phelippe Schnell
-🔗 GitHub: https://github.com/PhelippeDEV
+* Praticar JavaScript na prática
+* Entender manipulação de elementos na tela
+* Trabalhar com lógica de jogos simples
+* Melhorar habilidades em front-end
 
-Licença
+---
 
-Este projeto foi desenvolvido para fins educacionais.
+## 👨‍💻 Autor
+
+**Phelippe Schnell**
+🔗 GitHub: [https://github.com/PhelippeDEV](https://github.com/PhelippeDEV)
+
+---
+
+## 🚀 Possíveis Melhorias Futuras
+
+* Implementar leaderboard
+* Tornar o jogo responsivo para mobile
+* Adicionar efeitos sonoros
